@@ -1,0 +1,25 @@
+.Grid {
+	display: grid;
+	grid-template-areas:
+	'header header header header header header'
+	'menu header header header header header'
+	'menu info info info info info'
+	'menu info info info info info'
+	'menu info info info info info'
+	'menu info info info info info'
+	'menu info info info info info'
+	'menu info info info info info'
+	'menu info info info info info' ;
+	grid-gap: 10px;
+	
+}
+
+.menu {
+	background-color: blue;
+}
+.header {
+	background-color: red;
+}
+.info {
+	background-color: pink;
+}
