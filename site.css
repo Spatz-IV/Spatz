@@ -1,42 +1,77 @@
-html {
-	height:100%;
-	}
-
 
 .header {
-	grid-area: header;
+	background-image: radial-gradient(#FF5F6D, #FFC371 );
+	grid-area: head;
+	border: solid;
 }
 
-.menu {
-	grid-area: menu;
+.navigation {
+	background-image: linear-gradient(to  right,  #FF5F6D, #FFC371 );
+	grid-area: navi;
+	border-top: none;
+	border-left: solid;
+	border-right: solid;
+	border-bottom: none;
+	padding: 40px;
 }
-.info {
-	grid-area: info;
+
+.content {
+	background-color:#ffc371;
+	grid-area: cont;
+	border-right: solid;
 }
 
 .footer {
-	grid-area: footer;
+
+	background-image: radial-gradient(#FF5F6D, #FFC371 );
+	grid-area: foot;
+	border:solid;
+}
+	
+html {
+	height:100%;
+	background-color: orange;
 }
 
-	
+li {
+	list-style: none;
+	font: quicksand;
+	color: black;
+	background-image: linear-gradient(to  left,  #FF5F6D, #FFC371 );
+
+
+}
+a {
+	font: quicksand;
+	color: black;
+	font-size: 30px;
+}
+
+iframe{
+	width: 216px;
+	height: 235px;
+}
+p {
+	text-align: center;
+}
+
+
+
+
 .grid {
 	height: 100%;
-	margin: 0;
 	display: grid;
-	
+	margin: 0px;
+	position: aboslute;
 	grid-template-areas:
-	'header header header header header header header header header header'
-	'menu header header header header header header header header header'
-	'menu info info info info info info info info info'
-	'menu info info info info info info info info info'
-	'menu info info info info info info info info info'
-	'menu info info info info info info info info info'
-	'menu info info info info info info info info info'
-	'menu info info info info info info info info info'
-	'menu info info info info info info info info info'
-	'footer footer footer footer footer footer footer footer footer footer' ;
-	
-	background-color: pink;
-	
-}
-
+		'head head head head head head head head head head '
+		'navi  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'navi  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'navi  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'navi  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'navi  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'navi  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'navi  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'navi  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'foot foot foot foot foot foot foot foot foot foot ';
+	}
