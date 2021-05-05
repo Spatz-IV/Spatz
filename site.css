@@ -3,6 +3,10 @@
 	background-image: radial-gradient(#FF5F6D, #FFC371 );
 	grid-area: head;
 	border: solid;
+	padding: 20px;
+	position: static;
+
+
 }
 
 .navigation {
@@ -13,12 +17,15 @@
 	border-right: solid;
 	border-bottom: none;
 	padding: 40px;
+	position: static;
+
 }
 
 .content {
 	background-color:#ffc371;
 	grid-area: cont;
 	border-right: solid;
+	position: static;
 }
 
 .footer {
@@ -26,6 +33,10 @@
 	background-image: radial-gradient(#FF5F6D, #FFC371 );
 	grid-area: foot;
 	border:solid;
+	padding: 20px;
+	position: static;
+
+
 }
 	
 html {
@@ -53,6 +64,7 @@ iframe{
 }
 p {
 	text-align: center;
+	font-size: 22px;
 }
 
 
